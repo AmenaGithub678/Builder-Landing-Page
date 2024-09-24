@@ -1,0 +1,203 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+.row>*{
+  width: auto;
+}
+.banner-title {
+    text-align: center !important;
+    padding-left: 16px;
+}
+
+.banner h1 span { background: #fab700;
+    border-radius: 4px; line-height: 43px;
+    color: #222222; padding-left: 4px;
+    padding-right: 4px; padding-bottom: 5px;
+    padding-top: 2px;display: inline-block;
+    margin-left: 12px;padding: 8px 7px;
+    margin-top: 31px;}
+
+.banner h1 { font-size: 34px !important;}
+
+.Services { padding-left: 41px !important;}
+
+.s-icon{   padding: 35px 1px; }   
+
+.s-icon p { font-size: 12px;line-height: 24px;line-height: normal; margin-top: 6px !important;}
+
+.s-icon h4 {font-size: 17px;}
+
+.Gallery-itmes {grid-template-columns: auto;}
+
+.hover-txt {top: 33%;}
+
+.user-title h2 { font-size: 22px; margin-left: 10px;}
+
+.team-section .offset-2{margin-left: 0.666667% !important;}
+.counter-list {
+    grid-template-columns: auto;}
+
+.p-counter{margin-bottom: 21px;}  
+
+
+.feature-title {padding: 33px 0px; margin-bottom: 64px;  margin-left: 13px;}
+
+.feature-item{ padding: 35px 1px 35px 1px;}
+
+
+.feature-title h2 {  font-size: 21px;margin-bottom: 18px;font-weight: bold;
+        margin-left: -13px; line-height: normal;}  
+
+.feature-title p {font-size: 11px; line-height: normal;
+  color: #777777;  margin-top: 9px;font-weight: bold;
+  margin-left: -9px;letter-spacing: 1px;}
+
+.feature-icon h4 { font-size: 13px;  }
+.feature-icon h4 i {   padding: 0px 3px;}
+
+.feature-item p{margin-top: 0;margin-bottom: 1rem; font-size: 11px;
+    margin-left: -3px;line-height: normal;
+    padding: 6px 8px;
+}
+.testimonial{
+           padding: 42px;
+           height: 64vh;
+}
+.owl-dots{display: none;}
+.owl-theme .owl-nav {
+    margin-top: 10px;
+    display: none;
+}
+.t-space .offset-1{margin: 0%;}
+.t-body{padding: 42px 18px; }
+
+.testimonial-img{        padding-top: 10px; }
+.testimonial-txt h4 {font-size: 14px;}
+.testimonial-txt h5 {font-size: 10px;}
+.testimonial-txt p{ margin-left: 6px; } 
+
+.logo-section{
+        padding-top: 60px;
+        padding-bottom: 60px;
+}
+       
+
+.logo-main {
+    width: auto;
+    text-align: center;
+    display: inline;
+    margin: auto;
+    line-height: 70px;
+    opacity: 0.5 !important;
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;}
+  .logo-main:hover{
+        opacity: 1 !important;
+ }
+.l-con {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;}
+
+.logo-body{  padding: 12px 0px; }
+
+.footer { width: 100%;
+        background: black;
+        padding: 10px 0px;
+    }
+
+.footer-left   .offset-1{ margin: 0%; } 
+.footer-left{ flex-direction: column;}
+
+
+.footer-left p{ max-width: 240px; }
+.footer-left h5{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+    margin-bottom: 28px;}
+
+
+.footer-title #btn{
+  width: 253px;
+    height: 54px;
+    text-align: center;
+    font-size: 16px;
+    /* font-style: italic; */
+    font-weight: 400;
+    margin: -3px;
+    margin-top: 10px;
+    padding: 13px 0px;
+}
+  #btn {
+
+        height: 52px !important;
+        width: 269px !important;
+        padding: 11px 0px !important;
+        margin-top: 10px !important;
+    }
+}
+

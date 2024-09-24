@@ -1,0 +1,444 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+}
+/* font-family: "Roboto", sans-serif;*/
+/*   font-family: "Oswald", sans-serif;*/
+/*  font-family: "Poppins", sans-serif;*/
+
+/*header section css start from here*/
+
+.header{
+    position: absolute; width: 100%;
+}
+.topbar{ padding: 6px 0px;width: 100%; border-bottom:1px solid #cccccc; !important; }
+.topbar ul li{ display: inline-block; list-style: none; margin-right: 15px;}
+.topbar ul li a i{  color: #ccc;  font-size:14px;   }
+.topbar ul li a { font-size: 12px; color: #ccc; display: inline-block; line-height: 45px;  }
+.topbar li:hover a{color: #fab700;}   
+.topbar .language-btn{text-align: right;}  
+
+ .btn-secondary{ border: 1px solid #eeeeee !important; border-radius: 3px;line-height: 28px; font-size: 12px;
+    font-family: "Roboto", sans-serif; font-weight: 500;
+    color: #777777 !important; background: #f9f9ff !important;}
+
+.quote-btn{
+	line-height: 28px; border: 1px solid #fab700;
+    display: inline-block;
+    background: #fab700;
+    padding: 0px 19px;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #fff;
+   
+    transition: all 300ms linear 0s;
+    margin-top: 8px;
+    border-radius: 3px;
+}
+.nav-item {
+    margin-right: 45px;
+}
+.nav-link{
+	    font-weight: 500; font-size: 12px ; font-family: "Poppins", sans-serif;
+    text-transform: uppercase; color: #222222; padding: 0px;
+    display: inline-block;
+}
+
+.d-flex{margin-left: -16px; font-size: 12px; line-height: 56px; display: inline-block;
+    color: #222222;}
+
+ .nav-link:hover {
+   color: #fab700  !important  ;
+}
+/*header section css end here*/
+
+/*banner section css start here*/
+.banner{position: relative;width: 100%; padding: 20px; background-image: url(../image/home-banner.jpg); background-repeat: no-repeat; background-size: cover;height: 100vh; background-position: center;}
+
+.b-flex{display: flex; align-items: center; height: 100vh;  } 
+
+.banner-title{ text-align: center !important;
+    padding-left: 399px; }
+
+.banner h1{font-size: 60px; font-family: "Oswald", sans-serif;font-weight: normal; 
+    margin-bottom: 20px; text-align: center; color: #fff;
+}
+.banner h1 span{background: #fab700;border-radius: 4px;line-height: 60px;
+    color: #222222;padding-left: 4px;padding-right: 4px;padding-bottom: 5px;
+    padding-top: 2px;display: inline-block; margin-left: 17px;padding: 18px 0px;
+    margin-top: 45px;
+} 
+.banner p{ font-size: 14px;line-height: 24px;
+    font-family: "Roboto", sans-serif;font-weight: normal;max-width: 500px;
+    margin: auto;}
+.banner-btn{ padding: 0px 44px;line-height: 50px;background: #222222;color: #fab700;display: inline-block;border-radius: 5px;
+    font-size: 13px;font-family: "Roboto", sans-serif;font-weight: 500;margin-top: 35px;     border: none !important;}
+
+.banner-btn:hover {background: #fab700!important; color: #222222 !important;}
+/*banner section css end here*/
+
+
+
+/*Services section css start here*/
+
+.Services{width: 100%; padding: 30px; text-align: center;}
+
+.Services-title{padding: 15px; }
+
+.Services-title h2{font-family: "Oswald", sans-serif; font-size: 36px; color: #222222; margin-bottom: 12px; }
+
+.Services-title p{  
+font-size: 14px; font-family: "Roboto", sans-serif;  font-weight: normal; line-height: 24px;
+    color: #777777; margin-bottom: 0px; }
+
+.Services-Icon{ margin-top:80px; }
+
+.s-icon{ text-align: center; padding: 45px 55px;
+    border-radius: 10px;
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+    margin-bottom: 30px;}
+
+.s-icon img{ margin-bottom: 23px;}
+
+.s-icon h4{ font-size: 20px; font-family: "Oswald", sans-serif;
+    color: #222222; margin-bottom: 18px;}
+
+.s-icon p{font-size: 14px; line-height: 24px; font-family: "Roboto", sans-serif; }
+
+
+.s-icon:hover {
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);}
+
+/*Services section css end here*/
+
+/*Gallery  section css start here*/
+
+
+
+.Gallery{width: 100%;
+    padding: 25px 0px;}
+.container-fluid{padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    text-align: center;
+  }
+.Gallery-title{padding: 46px; text-align: center;}
+
+.Gallery-title h2{font-family: "Oswald", 
+	sans-serif; font-size: 36px; 
+	color: #222222; margin-bottom: 12px;
+	     }
+
+.Gallery-title p{font-size: 14px;
+ font-family: "Roboto", sans-serif;  
+ font-weight: normal; line-height: 24px;
+    color: #777777; 
+    margin-bottom: 0px; 
+    }
+
+
+
+.Gallery-itmes{display: grid; 
+	grid-template-columns: auto auto auto ;
+	    margin-top: 40px;} 
+ 
+.g-item{position: relative; !important;
+    overflow: hidden;}
+
+.g-item::before{
+	display: none;
+    content: '';
+    background: rgba(250, 183, 0, 0.85) !important;
+    position: absolute !important;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+  }
+
+.hover-txt{
+	display: none;
+  position: absolute; 
+	z-index: 99;
+  top: 36%;
+  text-align: center;
+}
+
+.hover-txt h4{
+	 color: white; 
+	 font-size: 20px; 
+	 margin-bottom: 0px;
+   -webkit-transition: all 300ms ease;
+   -o-transition: all 300ms ease;   
+    transition: all 300ms ease; 
+    padding: 10px 0px; 
+  }
+
+.hover-txt p { 
+		max-width: 470px; 
+	margin: auto; 
+	font-size: 14px; 
+	line-height: 24px; 
+	font-family: "Roboto", sans-serif; 
+	color: #222222;
+}
+.g-item:hover .hover-txt, .g-item:hover::before {
+display: block;
+}
+/*Gallery  section css end here*/
+
+
+
+
+/*User section css start here*/
+
+.User{width: 100%; padding: 30px; text-align: center;}
+
+.user-title{padding: 15px; }
+
+.user-title h2{font-family: "Oswald", sans-serif; font-size: 36px; color: #222222; margin-bottom: 12px; }
+
+.user-title p{  
+font-size: 14px; font-family: "Roboto", sans-serif;  font-weight: normal; line-height: 24px;
+    color: #777777; margin-bottom: 0px; }
+
+
+.itmes{
+	margin-top: 40px;} 
+
+	.user-txt{text-align: center;
+    margin-top: 30px;
+      }    
+   .user-txt h4{ margin-bottom: 5px;
+    color: #222222;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 18px; }  
+     .user-txt p{
+     	font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: #777777;
+    margin-bottom: 0px;
+     }
+
+
+@media (min-width: 768px) {
+    .col-md-2 {
+        flex: 0 0 auto !important;
+        width: 18.666667% !important;
+    }
+}
+.offset-2 {
+    margin-left: 13.666667% !important;
+}
+
+.user-img{position: relative; !important;
+        overflow: hidden;}
+
+   .user-img::before{
+    display: none;
+    content: '';
+    background: rgba(250, 183, 0, 0.85) !important;
+    position: absolute !important;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+  }
+.hover-icon{
+	 display: none;
+    position: absolute;
+    z-index: 99;
+    top: 45%;
+    text-align: center !important;
+    left: 88px;
+}
+.hover-icon a  i{
+	    padding: 0px 6px;
+}
+
+.user-img:hover .hover-icon, .user-img:hover::before {
+display: block;
+}
+
+/*User section css end here*/
+
+
+/*Count project section css  start here*/
+.project-count{ background:  rgba(250, 183, 0, 0.85) !important; }
+
+.counter-list{     display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    text-align: center;
+    margin-top: 20px;
+    padding: 50px 0px;
+}
+.list-counter h4{
+font-size: 48px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    color: #222222;
+}
+.list-counter p{
+    margin-bottom: 0px;
+    color: #222222;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+/*Count project section css end here*/
+
+/*Feature section css start from here*/
+.feature{width: 100%;     padding: 40px; text-align: center;}
+
+.feature-title{padding: 30px;
+    margin-bottom: 64px; }
+
+.feature-title h2{font-family: "Oswald", sans-serif; font-size: 36px; color: #222222; margin-bottom: 12px; }
+
+.feature-title p{  
+font-size: 14px; font-family: "Roboto", sans-serif;  font-weight: normal; line-height: 24px;
+    color: #777777; margin-bottom: 0px; }
+
+.feature-icon h4 {
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    color: #222222;
+    margin-bottom: 20px;
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;}
+  
+ .feature-icon h4 i{padding: 0px 10px;}  
+
+.feature-item{
+
+    background: #fff;
+    border-radius: 10px;
+    padding: 40px 60px 40px 40px;
+    margin-bottom: 30px;
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+    border: 1px solid #eeeeee;
+}
+ .feature-item:hover h4 {
+    color: #fab700;
+}
+
+ .feature-item:hover{box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);}
+/*Feature section css end here*/
+
+/*testimonial section start here*/
+.testimonial{
+	width: 100%;
+    padding: 141px;
+    background: #f9f9ff;
+    height: 65vh;
+}
+
+
+.t-body {
+    display: flex;
+    justify-content: space-between;
+        border: 1px solid #eeeeee;
+    border-radius: 10px;
+    padding: 40px;
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+    margin: 0px 10px;
+}
+  
+.testimonial-txt h4{
+    color: #222222;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+}
+
+
+
+.testimonial-txt p{
+   font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    color: #777777;
+    margin-bottom: 10px;
+    padding: 5px 0px;
+    font-weight: 400;
+}
+.t-body:hover {box-shadow: 0px 12px 27px 0px rgba(0, 0, 0, 0.1); }
+
+.t-body:hover h4 {   color: #fab700; }
+
+/*testimonial section end here*/
+
+/*logo section section start here*/
+
+.logo-section{ width: 100%;
+    padding: 50px;
+  overflow: hidden;
+  }
+
+  .logo-body{ padding:50px; }
+
+  .logo-main{  display: flex;
+    justify-content: space-between;
+  padding: 50px ;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+    margin: 0px 10px;   
+    opacity:0.3;  }
+  .logo-main:hover{
+ 	opacity: 1;
+ }
+
+
+
+
+/*logo section section end here*/
+.footer{
+width: 100%;
+background: black;
+padding: 60px;
+}
+.footer-left{
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-title h5 {     font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+    margin-bottom: 28px; }
+
+.footer-title p{  font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: #777777;
+    margin-bottom: 0px;
+    padding: 7px 0px;
+    font-weight: 400;
+    margin-right: 7px; }
+
+.footer-title #btn{
+    width: 355px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    /* font-style: italic; */
+    font-weight: 400;
+}
+}
